@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="registeration.css" />
+  </head>
+
+  <body>
+
+    <section class="container">
+      <form action="#" class="form">
+
+        <div class="column">
+          <div class="input-box">
+            <label>FIRST NAME*</label>
+            <input type="text" required />
+          </div>
+
+          <div class="input-box">
+            <label>MEAL PREFERCENCE</label>
+            <div class="select-box">
+              <select>
+                <option hidden>select</option>
+                <option>Vegetarian</option>
+                <option>Non-vegetarian</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>LAST NAME*</label>
+            <input type="text" required />
+          </div>
+
+          <div class="input-box">
+          <div class="gender-box">
+            <label>PAYMENT MODE</label>
+            
+            <div class="gender-option">
+              <div class="gender">
+                <input type="radio" id="check-Cash" name="gender" checked />
+                <label for="check-Cash">Cash</label>
+              </div>
+              
+              <div class="gender">
+                <input type="radio" id="check-Cheque" name="gender" />
+                <label for="check-Cheque">Cheque</label>
+              </div>
+  
+              <div class="gender">
+                <input type="radio" id="check-Demand Draf" name="gender" />
+                <label for="check-Demand Draf">Demand Draf</label>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>COMPANY*</label>
+            <input type="text" required />
+          </div>
+
+          <div class="input-box">
+            <label>DD/CHEQUE NO.</label>
+            <input type="text" required />
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>EMAIL*</label>
+            <input type="text" required />
+          </div>
+
+          <div class="input-box">
+            <label>DRAWN ON(BANK NAME)</label>
+            <input type="text" required />
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>PHONE NUMBER*</label>
+            <input type="number" required />
+          </div>
+
+          <div class="input-box">
+            <label>PAYABLE AT</label>
+            <input type="text" required />
+          </div>
+        </div>
+
+        <button>SUBMIT</button>
+        <button>RESET</button>
+
+      </form>
+    </section>
+
+  </body>
+
+</html>
+
