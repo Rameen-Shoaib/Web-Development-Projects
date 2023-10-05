@@ -1,0 +1,97 @@
+h1{
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+}
+.clear{
+    text-align: center;
+    color: red;
+    border-color: white;
+    background-color: white;
+    margin-left: 580px;
+    padding: 10px;
+}
+input{
+    width: 80%;
+    padding: 7px;
+    border: solid 2px blue;
+    border-radius: 6px;
+    margin-left: 70px;
+}
+.enter{
+    background-color: rgb(186, 220, 236);
+    padding: 7px;
+    border-radius: 6px;
+    border-color: rgb(186, 220, 236);
+}
+.to-do-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.to-do-list i {
+    color: red;
+    cursor: pointer;
+}
+.to-do-list .fa-pen-to-square {
+    color: lawngreen;
+}
+.to-do-list button {
+    padding: 8px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: inherit;
+    border: none;
+}
+.item {
+    width: 86%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 1px;
+    margin-left: 70px;
+}
+.input-controller {
+    display: flex;
+    gap: 5px;
+}
+.input-controller textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    resize: none;
+    line-height: 1;
+    color: black;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-family: inherit;
+    transition: all 0.30s ease-in-out;
+}
+textarea:focus {
+    box-shadow: 0 0 5px white;
+}
+.edit-controller {
+    display: flex;
+    gap: 20px;
+}
+.update-controller {
+    display: none;
+}
+@media(max-width: 768px) {
+.app {
+    width: 95%;
+    text-align: center;
+}
+.input-header {
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.to-do-input {
+    display: flex;
+}
+.to-do-input input {
+    width: 300px;
+}
+}
